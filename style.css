@@ -1,6 +1,9 @@
 /* GLOBAL */
 @import "./css/global.css";
 
+/* COMPONENTES */
+@import "./css/componentes.css";
+
 /* NAV HEADER */
 @import "./css/nav-header.css";
 
