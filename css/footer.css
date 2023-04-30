@@ -5,24 +5,20 @@
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 0px;
+    gap: 50px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-.footer-img {
-    display: flex;
-    justify-content: center;
-    padding-top: -100px;   
+.footer-titulo h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff
 }
 
-.footer-contato li:nth-child(even):after {
-    content: "";
-    display: block;
-    max-width: 360px;
-    height: 2px;
-    background: var(--cor-11);
-    margin-top: 16px;
+.footer h3 {
+    color: #ffffff;
+    font-weight: 400;
 }
 
 .titulo-footer {
@@ -35,7 +31,11 @@
 }
 
 .footer a:hover {
-    color: var(--cor-0);
+    color: #ffffff;
+}
+
+.img-redes svg path {
+    fill: #000;
 }
 
 .footer-copy {

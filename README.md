@@ -14,6 +14,7 @@
 - Botao 2= #3256328C
 - Copy= #2B2626
 - Titulo= #90514E
+- Texto= #6A6161
 <br/>
 
 

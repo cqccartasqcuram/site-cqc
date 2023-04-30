@@ -41,6 +41,7 @@
 
 .missao h2 {
     margin-left: 40px;
+    margin-bottom: 30px;
 }
 
 .missao p {
@@ -48,6 +49,7 @@
     font-size: 27px;
     color: #6A6161;
     margin-left: -50px;
+    margin-bottom: 30px;
 }
 
 .missao-botao {
@@ -87,6 +89,7 @@
 .inscricao-lista p {
     margin-bottom: 40px;
     text-align: center;
+    color: #6A6161;
 }
 
 .inscricao-lista ul {
@@ -126,6 +129,7 @@
     margin-bottom: 16px;
     display: flex;
     align-items: center;
+    color: #6A6161;
 }
 
 .inscricao-lista h3::before {
