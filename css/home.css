@@ -79,7 +79,7 @@
 }
 
 
-/************* introducao-bg2 **************/
+/************* incricao lista **************/
 .inscricao-lista {
     padding: 100px;
     display: grid;
@@ -118,7 +118,7 @@
 
 .inscricao-lista img {
     margin-bottom: 16px;
-    border-radius: 10px;
+    border-radius: 500px;
 }
 
 .inscricao-lista a {
@@ -140,6 +140,11 @@
     margin-right: 8px;
     background-color: #D99F89D4;
     transition: width 0.2s;
+}
+
+.a-lista h3,
+.a-lista button {
+   margin-left: 60px;
 }
 
 .inscricao-lista a:hover  h3::before {

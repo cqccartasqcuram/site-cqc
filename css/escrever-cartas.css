@@ -1,0 +1,55 @@
+.introducao-ec {
+    background: #eecfcf46;
+}
+
+.introducao-pg {
+    padding: 90px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    text-align: center;
+    color: #6A6161;
+    align-items: center;
+}
+
+.introducao-pg h2 {
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.escrever-cartas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px;
+    margin-bottom: 150px;
+    gap: 50px;
+}
+
+.texto-escrever h3,
+.texto-escrever p {
+    margin-bottom: 30px;
+}
+
+.texto-escrever h3 {
+    margin-top: 20px;
+    font-family: 'Alice', serif;
+    font-size: 30px;
+    color: #6A6161;
+}
+
+.texto-escrever p {
+    font-family: 'roboto' serif;
+    font-size: 15px;
+    color: #6A6161;
+}
+
+.escrever-botao {
+    display: grid;
+    margin: 0px;
+    padding: 0px;
+    gap: 20px;
+}
+
+.escrever-img img {
+    border-radius: 40px;
+}
