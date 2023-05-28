@@ -1,0 +1,33 @@
+*tipografia
+titulo= pontano sans-3-700
+subtitulo= pontano sans-0,8-700
+texto= source sans pro-400
+
+*cores
+titulo= #005B56 
+subtitulo= #B58DA4
+texto= #4B4B4B
+botão= #00766F/#B58DA4
+roxo escuro= #3e1648 
+lilas= #B58DA4 
+verde escuro= #005B56 
+verde claro= #00766F
+menu lilastras: #EADEE5
+
+
+Home
+Doenças Degenerativas
+Orientaçoes
+Tratamentos e Sintomas
+Comportamentos
+Cuidando do Cuidador
+Juridico
+Por Berna Almeida / Sessão Cinema
+Faça uma Doação
+
+
+
+
+
+
+

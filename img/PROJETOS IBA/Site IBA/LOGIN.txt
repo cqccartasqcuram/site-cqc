@@ -1,0 +1,16 @@
+https://institutobernalmeida.com.br/blog/wp-admin/
+
+user: institutoberna_blog     
+pass: Enter_live#10@
+
+
+user: isadora
+pass: +147+258+369
+
+
+https://institutobernalmeida.com.br/blog/zpr/?loggedout=true&wp_lang=pt_BR
+
+Usuário: institutoberna_blog 
+Senha: Enter_live#10@
+
+guia: 2086401
