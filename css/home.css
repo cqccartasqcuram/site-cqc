@@ -122,6 +122,7 @@
 }
 
 .inscricao-lista img {
+    max-width: 300px;
     margin-bottom: 16px;
     border-radius: 500px;
 }

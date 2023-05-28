@@ -13,8 +13,8 @@
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
 
     <!-- STYLE -->
-    <link rel="preload" href="./css/style.css" as="style">
-    <link rel="stylesheet" href="../../style.css">
+    <link rel="preload" href="./css/" as="style">
+    <link rel="stylesheet" href="style.css">
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,6 +22,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <script>document.documentElement.className += ' js';</script>
     
     <title>CqC - Cartas q Curam</title>
 </head>
@@ -29,17 +31,18 @@
 <body>
     <header class="header-bg">
         <div class="header container">
-            <a href="index.html">
+            <a href="../index.html">
                 <img src="../img/logo.png" alt="Logo" width="80" height="80">
             </a>
             
-            <nav aria-label="primario">
-              <ul id="" class="header-menu">
+            <nav class="menu" data-menu="suave" aria-label="primario"></nav>
+              <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+              <ul data-menu="list" id="menu" class="header-menu menu">
                 <li class=""><a href="index.html">Home</a></li>
-                <li class=""><a href="receber-cartas.html">Receber Carta</a></li>
-                <li class=""><a href="escrever-cartas.html">Escrevedores de Cartas</a></li>
-                <li class=""><a href="supervisor.html">Supervisor</a></li>
-                <li class=""><a href="loja.html">Loja</a></li>
+                <li class=""><a href="./pages/receber-cartas.html">Receber Carta</a></li>
+                <li class=""><a href="./pages/escrever-cartas.html">Escrevedores de Cartas</a></li>
+                <li class=""><a href="./pages/supervisor.html">Supervisor</a></li>
+                <li class=""><a href="./pages/loja.html">Loja</a></li>
                 </ul>
             </nav>
 
@@ -148,6 +151,7 @@
       </footer>
     
     <!-- JAVASCRIPT -->
-    <script src="../js/script.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/script_menu_mobile.js"></script>
 </body>
 </html>
