@@ -1,8 +1,9 @@
-.introducao-ec {
+.introducao-pg {
     background: url('../img/fundopags.png');
 }
 
 .introducao-pg {
+    padding: 50px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 50px;
@@ -15,7 +16,7 @@
     font-weight: 100;
 }
 
-.escrever-cartas {
+.conteudo-pg {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 100px;
@@ -23,25 +24,25 @@
     gap: 50px;
 }
 
-.texto-escrever h3,
-.texto-escrever p {
+.texto-introducao-pg h3,
+.texto-introducao-pg p {
     margin-bottom: 30px;
 }
 
-.texto-escrever h3 {
+.texto-introducao-pg h3 {
     margin-top: 20px;
     font-family: 'Alice', serif;
     font-size: 30px;
     color: #6A6161;
 }
 
-.texto-escrever p {
+.texto-introducao-pg p {
     font-family: 'roboto' serif;
     font-size: 15px;
     color: #6A6161;
 }
 
-.escrever-botao {
+.botao-formulario {
     display: grid;
     margin: 0px;
     padding: 0px;
@@ -52,5 +53,36 @@
 .intro-pg {
     visibility: hidden;
 }
+
+/************* RESPONSIVO **************/
+@media (max-width: 900px) {
+    .introducao-pg {
+        padding: 30px;
+    }
+
+    .introducao-pg h2 {
+        font-size: 40px;
+    }
+  
+    .conteudo-pg {
+        grid-template-columns: 1fr;
+        margin: 10px;
+        margin-bottom: 100px;
+        gap: 50px;
+    }  
+    
+    .botao-formulario {
+        gap: 1px;
+    }
+  
+    .resposivo-botão {
+        font-size: 10px;
+        display: grid;
+        margin: 5px;
+        padding: 5px;
+        gap: 10px;
+    }
+  }   
+
 
 

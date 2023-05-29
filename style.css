@@ -13,20 +13,13 @@
 /* HOME */
 @import "./css/home.css";
 
-/* PAGINA RECEBER CARTA */
-@import "./css/receber-cartas.css";
-
-/* PAGINA ESCREVER CARTA */
-@import "./css/escrever-cartas.css";
-
-/* PAGINA SUPERVISOR */
-@import "./css/supervisor.css";
-
-/* PAGINA LOJA */
-@import "./css/loja.css";
+/* PAGINAS */
+@import "./css/paginas.css";
 
 /* FOOTER */
 @import "./css/footer.css";
+
+
 
 
 

@@ -43,6 +43,11 @@
 .missao h2 {
     margin-left: 40px;
     margin-bottom: 30px;
+    font-size: 60px;
+}
+
+.missao-conteudo h2 {
+    font-size: 60px;
 }
 
 .missao p {
@@ -88,7 +93,6 @@
 .inscricao-lista {
     padding: 100px;
     display: grid;
-    justify-content: center;
 }
 
 .inscricao-lista p {
@@ -102,9 +106,6 @@
     gap: 40px;
     padding: 0 20px 20px 20px;
     max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: auto;
 }
 
 .inscricao-lista ul {
@@ -117,8 +118,7 @@
 }
 
 .img-lista {
-    width: 100%;
-    height: 100%;
+    object-fit: contain;
 }
 
 .inscricao-lista img {
@@ -164,14 +164,19 @@
 .lista-projetos {
     display: flex;
     flex-wrap: wrap;  
-    gap: 1rem;    
+    gap: 10rem;    
     justify-content: center;
+}
+
+.a-lista {
+    width: fit-content;
+    margin: 0 auto;
 }
 
 
 
 
-/************* responsivo **************/
+/************* RESPONSIVO **************/
 @media (max-width: 1200px) {
     .introducao h1 {
         font-size: 48px;
@@ -180,7 +185,7 @@
 
 @media (max-width: 800px) {
     .introducao h1 {
-        font-size: 32px;
+        font-size: 36px;
         margin-top: 30px;
     }
 
@@ -189,10 +194,6 @@
         margin-bottom: 30px;
     }
 
-    .introducao img {
-        height: 100px;
-        width: 100%;
-    }
     .inscricao-lista {
         padding-bottom: 60px;
     }
@@ -200,5 +201,45 @@
     .inscricao-lista ul {
         gap: 20px;
     }
+
+    /************* missao **************/
+    .missao {
+        grid-template-columns: 1fr;
+    }
+
+    .missao-conteudo h2 {
+        font-size: 30px;
+    }
+
+    .missao-conteudo p {
+        font-size: 25px;
+    }
+
+    .missao p {
+        margin-left: 16px;
+    }
+
+    .img-missao {
+        display: none;
+    }
+
+    /********* incricao lista **********/
+    .inscricao-lista {
+        padding: 10px;
+        padding-top: 60px;
+    }
+
+    .lista-projetos li {
+        margin-bottom: 50px;
+    }
+
+    img .img-lista {
+        margin: 0;
+    }
 }
+
+ 
+
+    
+
 

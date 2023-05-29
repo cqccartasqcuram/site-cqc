@@ -22,6 +22,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- SCRIPT -->
+    <script>document.documentElement.className += ' js';</script>
     
     <title>CqC - Escrever Cartas</title>
 </head>
@@ -32,14 +35,15 @@
             <a href="../index.html">
                 <img src="../img/logo.png" alt="Logo" width="80" height="80">
             </a>
-            
-            <nav aria-label="primario">
-              <ul id="" class="header-menu">
+
+            <nav class="menu" data-menu="suave" aria-label="primario"></nav>
+              <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+              <ul data-menu="list" id="menu" class="header-menu menu">
                 <li class=""><a href="../../index.html">Home</a></li>
-                <li class=""><a href="receber-cartas.html">Receber Carta</a></li>
-                <li class=""><a href="escrever-cartas.html">Escrevedores de Cartas</a></li>
-                <li class=""><a href="supervisor.html">Supervisor</a></li>
-                <li class=""><a href="loja.html">Loja</a></li>
+                <li class=""><a href="./receber-cartas.html">Receber Carta</a></li>
+                <li class=""><a href="./escrever-cartas.html">Escrevedores de Cartas</a></li>
+                <li class=""><a href="./supervisor.html">Supervisor</a></li>
+                <li class=""><a href="./loja.html">Loja</a></li>
                 </ul>
             </nav>
 
@@ -47,9 +51,9 @@
         </div>
     </header>
 
-    <main class="introducao-ec">
+    <main class="introducao-pg">
         <div class="introducao-pg container">
-            <div class="intro-pg">
+            <div class="animacao-introducao-pg">
                 <h2>Como Ser Um Escritor?</h2>
                 <p>Para ser um escritor basta se cadastrar através do formulário abaixo.</br>
                 Entraremos em contato para fazer os próximos passos.</p>
@@ -57,8 +61,8 @@
         </div>
     </main>
 
-    <section class="escrever-cartas container">
-      <div class="texto-escrever">
+    <section class="conteudo-pg container">
+      <div class="texto-introducao-pg">
         <h3>Como se inscrever?</h3>
         <p>Para se inscrever é muito fácil, basta clicar no botão abaixo e preencher o formulário. </br></br>
            Ao clicar no botão de formulário será aberto uma nova aba para preenchimento do formulário.</br></br>
@@ -66,9 +70,9 @@
            Pedimos que todos os dados sejam preenchidos corretamente, para que o lenitivo necessário chegue a tempo de salvar vidas. 
         </p>
 
-        <div class="escrever-botao">
-          <button class="botao"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeXmS28bNqeesT0_1-V3mg0iYcUAmTE1juw4zIB7uSJjKAllA/viewform">Formulário Escrever Carta - Brasil</a></button>
-          <button class="botao"><a href="https://docs.google.com/forms/d/1cagRGYfWfNqqooOXK8n0BgPpaNEgckOgJoa_pedz2HY/viewform?edit_requested=true">Formulário Escrever Carta - Portugal</a></button>
+        <div class="botao-formulario">
+          <button class="botao resposivo-botão"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeXmS28bNqeesT0_1-V3mg0iYcUAmTE1juw4zIB7uSJjKAllA/viewform">Formulário Escrever Carta - Brasil</a></button>
+          <button class="botao resposivo-botão"><a href="https://docs.google.com/forms/d/1cagRGYfWfNqqooOXK8n0BgPpaNEgckOgJoa_pedz2HY/viewform?edit_requested=true">Formulário Escrever Carta - Portugal</a></button>
         </div>
       </div>
 
@@ -113,5 +117,7 @@
     
     <!-- JAVASCRIPT -->
     <script src="../js/script.js"></script>
+    <script type="module" src="../js/script-menu.js"></script>
+    <script type="module" src="../js/script-menu.js"></script>
 </body>
 </html>

@@ -22,6 +22,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- SCRIPT -->
+    <script>document.documentElement.className += ' js';</script>
     
     <title>CqC - Loja</title>
 </head>
@@ -33,13 +36,14 @@
                 <img src="../img/logo.png" alt="Logo" width="80" height="80">
             </a>
             
-            <nav aria-label="primario">
-              <ul id="" class="header-menu">
-                <li class=""><a href="../index.html">Home</a></li>
-                <li class=""><a href="receber-cartas.html">Receber Carta</a></li>
-                <li class=""><a href="escrever-cartas.html">Escrevedores de Cartas</a></li>
-                <li class=""><a href="supervisor.html">Supervisor</a></li>
-                <li class=""><a href="loja.html">Loja</a></li>
+            <nav class="menu" data-menu="suave" aria-label="primario"></nav>
+              <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+              <ul data-menu="list" id="menu" class="header-menu menu">
+                <li class=""><a href="../../index.html">Home</a></li>
+                <li class=""><a href="./receber-cartas.html">Receber Carta</a></li>
+                <li class=""><a href="./escrever-cartas.html">Escrevedores de Cartas</a></li>
+                <li class=""><a href="./supervisor.html">Supervisor</a></li>
+                <li class=""><a href="./loja.html">Loja</a></li>
                 </ul>
             </nav>
 
@@ -47,17 +51,17 @@
         </div>
     </header>
 
-    <main class="introducao-ec">
-        <div class="introducao-pg container">
-            <div class="intro-pg">
+    <main class="introducao-pg">
+      <div class="introducao-pg container">
+          <div class="animacao-introducao-pg">
                 <h2>Conheça Nossos Produtos</h2>
                 <p>Ajude o projeto comprando nossos produtos.</p>
             </div>
         </div>
     </main>
 
-    <section class="escrever-cartas container">
-      <div class="texto-escrever">
+    <section class="conteudo-pg container">
+      <div class="texto-introducao-pg">
         <h3>Como Comprar?</h3>
         <p>Para comprar nossos produtos é muito facil, basta entrar em contato conosco pelo telefone abaixa e te passaremos todos os detalhes de pagamento e envio.</br></br>
            Entre em contato pelo WhatsApp: +55 61 98678 8678. 
@@ -105,5 +109,6 @@
     
     <!-- JAVASCRIPT -->
     <script src="../js/script.js"></script>
+    <script type="module" src="../js/script-menu.js"></script>
 </body>
 </html>

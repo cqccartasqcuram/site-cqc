@@ -17,13 +17,13 @@ sr.reveal('.inscricao-lista', {
     duration:4000
 });
 
-// ESCREVER CARTAS
-sr.reveal('.intro-pg', { 
+// PAGINAS
+sr.reveal('.animacao-introducao-pg', { 
     rotate: {x:0, y:20, z: 0},
     duration: 4000 
 });
 
-sr.reveal('.texto-escrever', { 
+sr.reveal('.texto-introducao-pg', { 
     rotate: {x:0, y:0, z: 0},
     duration: 4000 
 });
